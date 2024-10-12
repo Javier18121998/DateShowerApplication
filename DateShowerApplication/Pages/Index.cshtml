@@ -1,10 +1,80 @@
 ﻿@page
-@model IndexModel
-@{
-    ViewData["Title"] = "Home page";
-}
+@using System
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora Actual</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #1b1b1b;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        /* Contenedor principal */
+        .container {
+            background-color: #333;
+            padding: 40px 60px;
+            border-radius: 12px;
+            box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        /* Título */
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            letter-spacing: 1.5px;
+            color: #ffbf00;
+        }
+
+        /* Estilo para la hora */
+        #timeDisplay {
+            font-size: 48px;
+            font-weight: bold;
+            color: #ffffff;
+            letter-spacing: 2px;
+        }
+
+        /* Efecto hover para el contenedor */
+        .container:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.6);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Hora Actual en CDMX, Guadalajara y MTY</h2>
+        <div id="timeDisplay">Cargando...</div>
+    </div>
+
+    <script>
+        function updateTime() {
+            fetch('/time')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('timeDisplay').innerText = data;
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+        // Llamamos a updateTime cada segundo
+        setInterval(updateTime, 1000);
+        updateTime();
+    </script>
+</body>
+
+</html>

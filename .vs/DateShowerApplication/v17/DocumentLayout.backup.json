@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\javie\\source\\repos\\DateShowerApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6A8FD5A3-9794-4E10-82FD-FE47BB0469A5}|DateShowerApplication\\DateShowerApplication.csproj|c:\\users\\javie\\source\\repos\\dateshowerapplication\\dateshowerapplication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A8FD5A3-9794-4E10-82FD-FE47BB0469A5}|DateShowerApplication\\DateShowerApplication.csproj|solutionrelative:dateshowerapplication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A8FD5A3-9794-4E10-82FD-FE47BB0469A5}|DateShowerApplication\\DateShowerApplication.csproj|c:\\users\\javie\\source\\repos\\dateshowerapplication\\dateshowerapplication\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A8FD5A3-9794-4E10-82FD-FE47BB0469A5}|DateShowerApplication\\DateShowerApplication.csproj|solutionrelative:dateshowerapplication\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6A8FD5A3-9794-4E10-82FD-FE47BB0469A5}|DateShowerApplication\\DateShowerApplication.csproj|c:\\users\\javie\\source\\repos\\dateshowerapplication\\dateshowerapplication\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6A8FD5A3-9794-4E10-82FD-FE47BB0469A5}|DateShowerApplication\\DateShowerApplication.csproj|solutionrelative:dateshowerapplication\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +34,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\javie\\source\\repos\\DateShowerApplication\\DateShowerApplication\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "DateShowerApplication\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\javie\\source\\repos\\DateShowerApplication\\DateShowerApplication\\appsettings.Development.json",
+              "RelativeToolTip": "DateShowerApplication\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-12T16:54:53.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\javie\\source\\repos\\DateShowerApplication\\DateShowerApplication\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "DateShowerApplication\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\javie\\source\\repos\\DateShowerApplication\\DateShowerApplication\\Properties\\launchSettings.json",
+              "RelativeToolTip": "DateShowerApplication\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-12T16:25:59.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\javie\\source\\repos\\DateShowerApplication\\DateShowerApplication\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "DateShowerApplication\\wwwroot\\index.html",
@@ -34,12 +68,11 @@
               "RelativeToolTip": "DateShowerApplication\\wwwroot\\index.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-12T04:23:48.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T04:23:48.868Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\javie\\source\\repos\\DateShowerApplication\\DateShowerApplication\\Program.cs",
               "RelativeDocumentMoniker": "DateShowerApplication\\Program.cs",
