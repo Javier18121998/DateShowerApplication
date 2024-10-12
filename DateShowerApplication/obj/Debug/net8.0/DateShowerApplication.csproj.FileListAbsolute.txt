@@ -28,3 +28,4 @@ C:\Users\javie\source\repos\DateShowerApplication\DateShowerApplication\obj\Debu
 C:\Users\javie\source\repos\DateShowerApplication\DateShowerApplication\obj\Debug\net8.0\DateShowerApplication.pdb
 C:\Users\javie\source\repos\DateShowerApplication\DateShowerApplication\obj\Debug\net8.0\DateShowerApplication.genruntimeconfig.cache
 C:\Users\javie\source\repos\DateShowerApplication\DateShowerApplication\obj\Debug\net8.0\ref\DateShowerApplication.dll
+C:\Users\javie\source\repos\DateShowerApplication\DateShowerApplication\obj\Debug\net8.0\DateShowerApplication.sourcelink.json

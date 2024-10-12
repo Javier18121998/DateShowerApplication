@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lIdpS+VuKTUNzjN7ibuEnbG/LP8pW9ByyAHCPq0XNWs=",
+  "Hash": "3lJY0H9tnqsPJobqDFgSlFwqy6v7AatgCGGb/6Jrdlo=",
   "Source": "DateShowerApplication",
   "BasePath": "_content/DateShowerApplication",
   "Mode": "Default",
@@ -91,25 +91,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\javie\\source\\repos\\DateShowerApplication\\DateShowerApplication\\wwwroot\\index.html",
-      "SourceId": "DateShowerApplication",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\javie\\source\\repos\\DateShowerApplication\\DateShowerApplication\\wwwroot\\",
-      "BasePath": "_content/DateShowerApplication",
-      "RelativePath": "index.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
       "Identity": "C:\\Users\\javie\\source\\repos\\DateShowerApplication\\DateShowerApplication\\wwwroot\\js\\site.js",

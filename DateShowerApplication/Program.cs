@@ -1,6 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// Agregar servicios al contenedor (si fuera necesario)
+// Agregar servicios necesarios
 builder.Services.AddRazorPages(); // Asegúrate de agregar este servicio
 
 var app = builder.Build();
@@ -21,7 +21,11 @@ app.MapGet("/time", () =>
     return Results.Text(currentTime.ToString("yyyy-MM-dd HH:mm:ss"), "text/plain");
 });
 
-// Establecer la página de inicio
-app.MapGet("/", () => Results.Redirect("/Index")); // Redirigir a Index.cshtml
+// Establecer la página de inicio para que solo sirva Index.cshtml
+app.MapGet("/", async context =>
+{
+    context.Response.Redirect("/Index"); // Redirigir a Index.cshtml
+});
 
+// Ejecutar la aplicación
 app.Run();
