@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DateShowerApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67113496e1feea24dd1d46aa1dc700174277f5f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61479bc3f8ecdc2304a8fe15b153cc9ce51bd46b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DateShowerApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DateShowerApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

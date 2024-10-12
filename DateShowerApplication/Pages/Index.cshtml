@@ -39,31 +39,62 @@
             color: #ffbf00;
         }
 
-        /* Estilo para la hora */
-        #timeDisplay {
-            font-size: 48px;
-            font-weight: bold;
-            color: #ffffff;
-            letter-spacing: 2px;
-        }
-
         /* Efecto hover para el contenedor */
         .container:hover {
             transform: scale(1.05);
             box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.6);
         }
+
+        /* Estilo para los botones */
+        .timezone-button {
+            margin: 5px;
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #ffbf00;
+            color: #333;
+            transition: background-color 0.3s;
+        }
+
+            .timezone-button:hover {
+                background-color: #ffc107;
+            }
+
     </style>
 </head>
 
 <body>
     <div class="container">
-        <h2>Hora Actual en CDMX, Guadalajara y MTY</h2>
+        <h2 id="timezoneTitle">Hora Actual en Mexico</h2>
         <div id="timeDisplay">Cargando...</div>
+
+        <div>
+            <button class="timezone-button" onclick="updateTime('Mexico')">CDMX</button>
+            <button class="timezone-button" onclick="updateTime('Sydney')">Sidney</button>
+            <button class="timezone-button" onclick="updateTime('Australia')">Australia</button>
+            <button class="timezone-button" onclick="updateTime('Russia')">Rusia</button>
+        </div>
     </div>
 
     <script>
-        function updateTime() {
-            fetch('/time')
+        let currentTimezone = 'Mexico'; // Zona horaria predeterminada
+
+        function updateTime(timezone) {
+            currentTimezone = timezone; // Actualiza la zona horaria seleccionada
+
+            // Cambia el título del h2 según la zona horaria seleccionada
+            const timezoneTitles = {
+                'Mexico': 'Hora Actual en Mexico',
+                'Sydney': 'Hora Actual en Sidney',
+                'Australia': 'Hora Actual en Australia',
+                'Russia': 'Hora Actual en Rusia'
+            };
+            document.getElementById('timezoneTitle').innerText = timezoneTitles[timezone];
+
+            // Llama a la API para obtener la hora actual
+            fetch(`/time?timezone=${timezone}`)
                 .then(response => response.text())
                 .then(data => {
                     document.getElementById('timeDisplay').innerText = data;
@@ -72,8 +103,8 @@
         }
 
         // Llamamos a updateTime cada segundo
-        setInterval(updateTime, 1000);
-        updateTime();
+        setInterval(() => updateTime(currentTimezone), 1000);
+        updateTime(currentTimezone); // Inicializa la hora
     </script>
 </body>
 

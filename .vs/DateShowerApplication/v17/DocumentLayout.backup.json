@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\javie\\source\\repos\\DateShowerApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A8FD5A3-9794-4E10-82FD-FE47BB0469A5}|DateShowerApplication\\DateShowerApplication.csproj|c:\\users\\javie\\source\\repos\\dateshowerapplication\\dateshowerapplication\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6A8FD5A3-9794-4E10-82FD-FE47BB0469A5}|DateShowerApplication\\DateShowerApplication.csproj|solutionrelative:dateshowerapplication\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6A8FD5A3-9794-4E10-82FD-FE47BB0469A5}|DateShowerApplication\\DateShowerApplication.csproj|c:\\users\\javie\\source\\repos\\dateshowerapplication\\dateshowerapplication\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A8FD5A3-9794-4E10-82FD-FE47BB0469A5}|DateShowerApplication\\DateShowerApplication.csproj|solutionrelative:dateshowerapplication\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A8FD5A3-9794-4E10-82FD-FE47BB0469A5}|DateShowerApplication\\DateShowerApplication.csproj|c:\\users\\javie\\source\\repos\\dateshowerapplication\\dateshowerapplication\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A8FD5A3-9794-4E10-82FD-FE47BB0469A5}|DateShowerApplication\\DateShowerApplication.csproj|solutionrelative:dateshowerapplication\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A8FD5A3-9794-4E10-82FD-FE47BB0469A5}|DateShowerApplication\\DateShowerApplication.csproj|c:\\users\\javie\\source\\repos\\dateshowerapplication\\dateshowerapplication\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A8FD5A3-9794-4E10-82FD-FE47BB0469A5}|DateShowerApplication\\DateShowerApplication.csproj|solutionrelative:dateshowerapplication\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A8FD5A3-9794-4E10-82FD-FE47BB0469A5}|DateShowerApplication\\DateShowerApplication.csproj|c:\\users\\javie\\source\\repos\\dateshowerapplication\\dateshowerapplication\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,10 +27,6 @@
       "RelativeMoniker": "D:0:0:{6A8FD5A3-9794-4E10-82FD-FE47BB0469A5}|DateShowerApplication\\DateShowerApplication.csproj|solutionrelative:dateshowerapplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A8FD5A3-9794-4E10-82FD-FE47BB0469A5}|DateShowerApplication\\DateShowerApplication.csproj|c:\\users\\javie\\source\\repos\\dateshowerapplication\\dateshowerapplication\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6A8FD5A3-9794-4E10-82FD-FE47BB0469A5}|DateShowerApplication\\DateShowerApplication.csproj|solutionrelative:dateshowerapplication\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6A8FD5A3-9794-4E10-82FD-FE47BB0469A5}|DateShowerApplication\\DateShowerApplication.csproj|c:\\users\\javie\\source\\repos\\dateshowerapplication\\dateshowerapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A8FD5A3-9794-4E10-82FD-FE47BB0469A5}|DateShowerApplication\\DateShowerApplication.csproj|solutionrelative:dateshowerapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,13 +46,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\javie\\source\\repos\\DateShowerApplication\\DateShowerApplication\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "DateShowerApplication\\Pages\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\javie\\source\\repos\\DateShowerApplication\\DateShowerApplication\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "DateShowerApplication\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-12T19:20:09.08Z",
               "EditorCaption": ""
@@ -72,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\javie\\source\\repos\\DateShowerApplication\\DateShowerApplication\\Pages\\Error.cshtml",
               "RelativeDocumentMoniker": "DateShowerApplication\\Pages\\Error.cshtml",
@@ -80,12 +80,11 @@
               "RelativeToolTip": "DateShowerApplication\\Pages\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T19:19:44.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T19:19:44.91Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\javie\\source\\repos\\DateShowerApplication\\DateShowerApplication\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "DateShowerApplication\\Pages\\_ViewStart.cshtml",
@@ -93,12 +92,11 @@
               "RelativeToolTip": "DateShowerApplication\\Pages\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T19:19:36.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T19:19:36.03Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "bootstrap-grid.css.map",
               "DocumentMoniker": "C:\\Users\\javie\\source\\repos\\DateShowerApplication\\DateShowerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
               "RelativeDocumentMoniker": "DateShowerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
@@ -106,8 +104,7 @@
               "RelativeToolTip": "DateShowerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHsAIAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-12T19:19:13.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T19:19:13.067Z"
             },
             {
               "$type": "Document",
@@ -119,18 +116,17 @@
               "RelativeToolTip": "DateShowerApplication\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T19:10:31.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T19:10:31.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\javie\\source\\repos\\DateShowerApplication\\DateShowerApplication\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "DateShowerApplication\\Pages\\Index.cshtml",
               "ToolTip": "C:\\Users\\javie\\source\\repos\\DateShowerApplication\\DateShowerApplication\\Pages\\Index.cshtml",
               "RelativeToolTip": "DateShowerApplication\\Pages\\Index.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAswG8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-12T19:10:16.239Z",
               "EditorCaption": ""

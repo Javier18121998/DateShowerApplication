@@ -1,7 +1,7 @@
 var builder = WebApplication.CreateBuilder(args);
 
 // Agregar servicios necesarios
-builder.Services.AddRazorPages(); // Asegúrate de agregar este servicio
+builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
@@ -9,13 +9,29 @@ var app = builder.Build();
 app.UseStaticFiles();
 
 // Habilitar la navegación a Razor Pages
-app.MapRazorPages(); // Habilita la navegación a las páginas Razor
+app.MapRazorPages();
 
 // Controlador que devuelve la hora actual
-app.MapGet("/time", () =>
+app.MapGet("/time", (string timezone) =>
 {
-    // Obtener la hora actual en CDMX, Guadalajara y MTY (UTC-6)
-    var currentTime = DateTime.UtcNow.AddHours(-6);
+    DateTime currentTime;
+
+    // Ajustar la hora actual según la zona horaria seleccionada
+    switch (timezone)
+    {
+        case "Sydney":
+            currentTime = DateTime.UtcNow.AddHours(11); // UTC+11
+            break;
+        case "Australia":
+            currentTime = DateTime.UtcNow.AddHours(10); // UTC+10
+            break;
+        case "Russia":
+            currentTime = DateTime.UtcNow.AddHours(3); // UTC+3
+            break;
+        default:
+            currentTime = DateTime.UtcNow.AddHours(-6); // UTC-6 para CDMX
+            break;
+    }
 
     // Devolver la hora en el formato especificado (incluyendo segundos)
     return Results.Text(currentTime.ToString("yyyy-MM-dd HH:mm:ss"), "text/plain");
